@@ -2,7 +2,15 @@
 # 🤖 Tech Challenge – Grupo 23
 
 Este projeto realiza a análise de um vídeo com detecção de **rostos**, **emoções** e **atividades**, usando técnicas modernas de Visão Computacional, Redes Neurais e Modelos de Linguagem Natural (LLM).
+---
 
+## 🎥 Demonstração
+
+Vídeo de Apresentação: https://youtu.be/t_Ux_pvwOBo
+---
+
+## Repositório
+https://github.com/Francanela/postech-ia-para-devs/tree/main/tech-challenge-fase-4
 ---
 
 ## 🧩 Etapas do Pipeline
