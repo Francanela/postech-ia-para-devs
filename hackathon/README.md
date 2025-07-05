@@ -1,6 +1,6 @@
-# DiagramGuard MVP
+# DiagSafe MVP
 
-Monorepo do MVP do DiagramGuard — um SaaS que gera relatórios STRIDE a partir de diagramas de arquitetura.
+Monorepo do MVP do DiagSafe — um SaaS que gera relatórios STRIDE a partir de diagramas de arquitetura.
 
 ## Arquitetura da Solução
 

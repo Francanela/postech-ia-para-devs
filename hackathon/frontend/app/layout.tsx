@@ -1,7 +1,7 @@
 import './globals.css';
 import { ReactQueryClientProvider } from '../src/lib/fetcher';
 
-export const metadata = { title: 'DiagramGuard', description: 'STRIDE on demand' };
+export const metadata = { title: 'DiagSafe', description: 'STRIDE on demand' };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
