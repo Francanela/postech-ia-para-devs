@@ -1,0 +1,68 @@
+# Node.js
+node_modules/
+.npm/
+dist/
+build/
+.env*
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+.eggs/
+venv/
+ENV/
+.env/
+.venv/
+
+# AWS SAM/Serverless
+.aws-sam/
+.sagemaker/
+
+# VSCode/IDE
+.vscode/
+.idea/
+*.swp
+
+# Test coverage
+coverage/
+.nyc_output/
+
+# MacOS
+.DS_Store
+
+# Outros
+*.bak
+*.tmp
+
+# Frontend
+frontend/.next/
+frontend/out/
+
+# Arquivos temporários
+*.tmp
+*.temp
+
+# S3 downloads temporários
+s3_downloads/
+
+# Arquivos de relatórios
+*.report.json
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Diretório de dados temporários
+python_code/data/
