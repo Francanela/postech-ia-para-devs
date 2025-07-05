@@ -4,6 +4,7 @@ Monorepo do MVP do DiagSafe — um SaaS que gera relatórios STRIDE a partir de 
 
 ## Arquitetura da Solução
 
+```txt
 +---------------------+         +---------------------------+
 |  Lambda 1           |         | Lambda 2                  |
 | (Recepção/Tratamento|-------> | Reconhecimento YOLO       |
@@ -19,6 +20,7 @@ Monorepo do MVP do DiagSafe — um SaaS que gera relatórios STRIDE a partir de 
                                  +---------------------+
                                  |      Amazon S3      |
                                  +---------------------+
+```
 
 - **Lambda 1:** Recebe e trata a imagem enviada pelo frontend (validação, pré-processamento, etc).
 - **Lambda 2:** Executa o modelo YOLO para reconhecimento dos elementos do diagrama e salva o relatório final no Amazon S3.
